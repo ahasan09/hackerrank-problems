@@ -1,4 +1,3 @@
-
 function diagonalDifference(arr) {
     let j = 0;
     let s1 = 0;
@@ -9,18 +8,7 @@ function diagonalDifference(arr) {
         s2 += arr[i][n - j - 1];
         j++;
     }
-
-    return (Math.abs(s1 - s2));
-
+    return Math.abs(s1 - s2);
 }
 
-function main() {
-    let arr = [[11, 2, 4], [4, 5, 6], [10, 8, -12]];
-
-    const result = diagonalDifference(arr);
-
-    console.log(result);
-}
-
-main();
-
+module.exports = diagonalDifference;

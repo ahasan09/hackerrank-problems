@@ -6,8 +6,7 @@ function compareTriplets(a, b) {
     for (let i = 0; i < length; i++) {
         if (a[i] > b[i]) {
             aliceCount++;
-        }
-        else if (a[i] < b[i]) {
+        } else if (a[i] < b[i]) {
             bobCount++;
         }
     }
@@ -15,5 +14,4 @@ function compareTriplets(a, b) {
     return [aliceCount, bobCount];
 }
 
-const result = compareTriplets([17, 28, 30], [99, 16, 8]);
-console.log(result.join(' ') + '\n');
+module.exports = compareTriplets;

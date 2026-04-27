@@ -1,0 +1,11 @@
+{
+  "name": "hackerrank-problems",
+  "version": "1.0.0",
+  "description": "HackerRank algorithm problem solutions in JavaScript with Jest unit tests",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

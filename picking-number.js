@@ -1,6 +1,5 @@
 function pickingNumbers(ar) {
-    let mapArr = new Array(100);
-    mapArr.fill(0);
+    const mapArr = new Array(100).fill(0);
 
     const arlen = ar.length;
     for (let i = 0; i < arlen; i++) {
@@ -10,12 +9,10 @@ function pickingNumbers(ar) {
     let max = 0;
     for (let i = 0; i < 100; i++) {
         const maxResult = mapArr[i] + mapArr[i + 1];
-        if (maxResult > max)
-            max = maxResult;
+        if (maxResult > max) max = maxResult;
     }
 
     return max;
 }
 
-const result = pickingNumbers([4, 6, 5, 3, 3, 1]);
-console.log(result);
+module.exports = pickingNumbers;

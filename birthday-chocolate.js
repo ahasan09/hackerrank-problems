@@ -6,15 +6,11 @@ function birthday(s, d, m) {
         for (let j = i; j < i + m; j++) {
             seqSum += s[j];
         }
-
         if (seqSum === d) {
             result++;
         }
     }
-
     return result;
-
 }
 
-const result = birthday([4], 4, 1);
-console.log(result);
+module.exports = birthday;
