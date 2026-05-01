@@ -1,0 +1,19 @@
+
+> hackerrank-problems@1.0.0 test
+> jest
+
+PASS __tests__/birthday-chocolate.test.js
+PASS __tests__/grading-students.test.js
+PASS __tests__/apple-orange.test.js
+PASS __tests__/diagonal-difference.test.js
+PASS __tests__/time-conversion.test.js
+PASS __tests__/mini-max-sum.test.js
+PASS __tests__/picking-number.test.js
+PASS __tests__/birthday-cake-candle.test.js
+PASS __tests__/compare-triplets.test.js
+
+Test Suites: 9 passed, 9 total
+Tests:       44 passed, 44 total
+Snapshots:   0 total
+Time:        0.199 s, estimated 1 s
+Ran all test suites.
